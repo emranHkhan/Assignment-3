@@ -61,7 +61,7 @@ function hotelCost(days) {
 function megaFriend (friends) {
     var firstFriend = friends[0]; //first element of the array
     if ( friends.length == 0 || Array.isArray(friends) == false) {
-        return ("Either you don't have friends or you are lying");
+        return ("You don't have friends");
     }
     else {
         for ( var i = 1; i < friends.length; i++) {
@@ -72,6 +72,7 @@ function megaFriend (friends) {
         return firstFriend;
     }
 }
+
 
 
 
